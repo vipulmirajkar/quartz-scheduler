@@ -28,7 +28,7 @@ public class QuartzDemoApplication implements Job {
 
 	@Override
 	public void execute(JobExecutionContext context) throws JobExecutionException {
-		LocalDateTime dateTime = LocalDateTime.of(2019, 1, 15, 15, 35);
+		LocalDateTime dateTime = LocalDateTime.of(2019, 1, 15, 18, 30);
 		ZoneId zone = ZoneId.systemDefault();
 
 		ScheduleEmailRequest scheduleEmailRequest = new ScheduleEmailRequest();
@@ -48,7 +48,7 @@ public class QuartzDemoApplication implements Job {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(QuartzDemoApplication.class, args);
 
-		String exp = "0 34 15 * * ?";
+		String exp = "0 13 18 * * ?";
 
 		SchedulerFactory factory = new StdSchedulerFactory();
 		Scheduler scheduler = factory.getScheduler();

@@ -32,7 +32,7 @@ public class SchedulerHelper {
 						"dateTime must be after current time");
 				return scheduleEmailResponse;
 			}
-
+			
 			EmailJobSchedulerController helper = new EmailJobSchedulerController(); // caller object
 
 			JobDetail jobDetail = helper.buildJobDetail(scheduleEmailRequest);
