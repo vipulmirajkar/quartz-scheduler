@@ -1,6 +1,4 @@
-# Spring Boot Quartz Scheduler Example: Building an Email Scheduling app
-
-**Complete Tutorial:** https://www.callicoder.com/spring-boot-quartz-scheduler-email-scheduling-example/
+# Spring Boot Quartz Scheduler Example
 
 ## Requirements
 
@@ -24,12 +22,7 @@ git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
 create database quartz_demo
 ```
 
-**3. Change MySQL username and password as per your MySQL installation**
-
-open `src/main/resources/application.properties`, and change `spring.datasource.username` and `spring.datasource.password` properties as per your mysql installation
-
-
-**4. Setup Spring Mail**
+**3. Setup Spring Mail**
 
 The project is using Gmail's SMTP server for sending emails. Whether you use Gmail or any other SMTP server, you'll need to configure the following mail properties accordingly -
 
