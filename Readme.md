@@ -29,8 +29,8 @@ The project is using Gmail's SMTP server for sending emails. Whether you use Gma
 ```properties
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
-spring.mail.username=rajeevc217@gmail.com
-spring.mail.password=
+spring.mail.username=test@gmail.com
+spring.mail.password=yourpassword
 ```
 
 If you're using Gmail, you need to allow the third party apps to send emails by following the instructions below -
