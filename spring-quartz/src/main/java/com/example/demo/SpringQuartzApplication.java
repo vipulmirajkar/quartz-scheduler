@@ -39,6 +39,7 @@ public class SpringQuartzApplication implements Job {
 		logger.info("dateTime: " + dateTime);
 		scheduleEmailRequest.setTimeZone(zone);
 		logger.info("zone: " + zone);
+		//checking commit
 
 		System.out.println(scheduleEmailRequest);
 		SchedulerHelper helper = new SchedulerHelper();
