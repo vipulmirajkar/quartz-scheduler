@@ -1,4 +1,4 @@
-# Spring Boot Quartz Scheduler Example
+# Spring Boot Quartz Scheduler
 
 ## Requirements
 
@@ -13,7 +13,7 @@
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
+git clone https://github.com/vipulmirajkar/quartz-scheduler.git
 ```
 
 **2. Create MySQL database**
